@@ -15,13 +15,29 @@ O desafio consistia em resolver um problema de **classificação multiclasse** (
 
 1. **Carregamento e inspeção** dos dados (`treino.csv` e `teste.csv`)
 2. **Split treino/validação** (90/10, `random_state=42`)
-3. **Padronização** com `StandardScaler` (fit apenas no treino)
+3. **Padronização** com `StandardScaler`
 4. **Comparação de modelos** via validação cruzada (10-fold)
-5. **Tuning** com `GridSearchCV` nos 3 melhores modelos (MLP, KNN e Random Forest)
+5. **Tuning** com `GridSearchCV` nos melhores modelos (KNN, Random Forest e MLP)
 6. **Modelo final:** `MLPClassifier` (rede neural) — melhor F1-score ponderado
 7. **Predição** no conjunto de teste e geração do arquivo de submissão
 
-## 🤖 Modelo escolhido
+## 📊 Resultados
+
+Abaixo estão os resultados obtidos no conjunto de validação (10% dos dados de treino) após o ajuste de hiperparâmetros:
+
+| Modelo | F1-score (weighted) |
+|---|---|
+| Decision Tree (Gini) | 0.50 |
+| Gradient Boosting | 0.55 |
+| SVM (RBF) | 0.50 |
+| Random Forest | 0.74 |
+| KNN (k=7, euclidean) | 0.78 |
+| **MLP (Modelo Final)** | **0.84** |
+
+### Matriz de Confusão (MLP)
+*A matriz de confusão do modelo final pode ser visualizada ao final do notebook, demonstrando o bom desempenho na maioria das classes.*
+
+## 🤖 O Modelo Escolhido
 
 **Multi-Layer Perceptron (MLPClassifier)** com a seguinte configuração:
 
