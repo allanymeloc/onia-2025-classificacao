@@ -50,6 +50,23 @@ A escolha se deu pelo melhor desempenho em F1-score ponderado no conjunto de val
 - Matplotlib
 - Google Colab
 
+## ▶️ Como reproduzir
+
+Para rodar este projeto na sua máquina, siga os passos abaixo:
+
+1. Clone este repositório no seu terminal:
+   git clone https://github.com/SEU_USUARIO/onia-2025-classificacao.git
+
+2. Entre na pasta do projeto:
+   cd onia-2025-classificacao
+
+3. Instale as bibliotecas necessárias:
+   pip install -r requirements.txt
+
+4. Coloque os arquivos treino.csv e teste.csv dentro da pasta data/ (eles não estão incluídos aqui por serem propriedade da competição).
+
+5. Abra o arquivo do Jupyter Notebook ou faça o upload dele no Google Colab para executar o código.
+   
 ## 👩‍💻 Autora
 
 **Allany de Melo Camacho**  
