@@ -75,4 +75,3 @@ Estudante de Estatística — UFF
 ## 📌 Contexto
 
 - 🥉 Medalha de Bronze — ONIA 2025 (classificada até a 4ª fase)
-- 🌍 Participante da IOAI 2024 (Burgas, Bulgária)
