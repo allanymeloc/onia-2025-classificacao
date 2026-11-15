@@ -34,6 +34,8 @@ Abaixo estão os resultados obtidos no conjunto de validação (10% dos dados de
 | KNN (k=7, euclidean) | 0.78 |
 | **MLP (Modelo Final)** | **0.84** |
 
+*A matriz de confusão do modelo final pode ser visualizada ao final do notebook, demonstrando o bom desempenho na maioria das classes.*
+
 ## 🤖 O Modelo Escolhido
 
 **Multi-Layer Perceptron (MLPClassifier)**
