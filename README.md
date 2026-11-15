@@ -55,7 +55,7 @@ A escolha se deu pelo melhor desempenho em F1-score ponderado no conjunto de val
 Para rodar este projeto na sua máquina, siga os passos abaixo:
 
 1. Clone este repositório no seu terminal:
-   git clone https://github.com/SEU_USUARIO/onia-2025-classificacao.git
+   git clone https://github.com/allanymeloc/onia-2025-classificacao.git
 
 2. Entre na pasta do projeto:
    cd onia-2025-classificacao
